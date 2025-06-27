@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    
+    flex-basis: 667px;
+}
+
+div#conteiner {
+    display: flex;
+    background-color: lightgray;
+
+    flex-flow: row wrap;
+    justify-items: ;
+    
+}
+
+div#imagem {
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    order:2;
+
+    flex-basis: 400px;
+    align-self: flex-end;
+}
+
+div#video {
+    background-color: blue;
+    width: 100%;
+    height: 300px;
+    order: 4;
+
+    flex-basis: 400px;
+}
